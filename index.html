@@ -6,14 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- в будущем заменить "Имя пользователя" на ссылку из БД на Имя/Фамилия -->
     <title>Имя пользователя</title>
-    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" href="img/main/logo1.png">
 </head>
 
 <body>
     <!-- шапка -->
     <header>
         <div class="header-container">
-            <div class="logo-img"></div>
+            <div class="logo">
+                <div class="logo-elem-square">
+                    <div class="logo-img">
+                        <img src="img/main/logo1.png" alt="">
+                    </div>
+                </div>
+                <div class="logo-text"></div>
+            </div>
             <!-- в будущем заменить "Имя пользователя" на ссылку из БД на Имя/Фамилия -->
             <div class="name-user">Имя пользователя</div>
 
@@ -22,7 +30,7 @@
 
             <!-- в будущем заменить "картинка пользователя" на ссылку из БД на Изображение профиля -->
             <object class='user-img' data="картинка пользователя" type="image/png">
-                <img src="img/main/default-user.png" alt="user-logo">
+                <a href="auth.html"><img src="img/main/default-user.png" alt="user-logo"></a>
             </object>
         </div>
 
@@ -73,9 +81,6 @@
             </ul>
             <p>© 2025 BiographicSite, Inc. Footer navigation</p>
         </div>
-
-
-
     </footer>
 </body>
 
